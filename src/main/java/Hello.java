@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Hello {
     private int id;
     private  String name;
+    private  double salary;
 
     public int getId() {
         return id;
@@ -18,5 +19,13 @@ public class Hello {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }
