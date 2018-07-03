@@ -5,7 +5,7 @@ public class Hello {
     private  String name;
     private  double salary;
     private int i;
-	private int j;
+	private int k;
 
     public int getId() {
         return id;
